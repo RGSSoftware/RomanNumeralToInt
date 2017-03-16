@@ -2,7 +2,7 @@ language: objective-c
 
 branches:
  only:
- - master
+ - develop
 
 xcode_project: RomanNumeralToInt.xcodeproj
 xcode_scheme: RomanNumeralToIntTests
