@@ -7,7 +7,7 @@ branches:
 xcode_project: RomanNumeralToInt.xcodeproj
 xcode_scheme: RomanNumeralToIntTests
 osx_image: xcode8.2
-xcode_sdk: iphonesimulator10.2
+xcode_sdk: iphonesimulator10.0
 
 script:
-- xcodebuild clean build test -project RomanNumeralToInt.xcodeproj -scheme RomanNumeralToIntTests -destination 'platform=iOS Simulator,name=iPhone 7 Plus,OS=10.2'
+- xcodebuild clean build test -project RomanNumeralToInt.xcodeproj -scheme RomanNumeralToIntTests -destination 'OS=10.0,name=iPhone 7 Plus'
